@@ -1,0 +1,18 @@
+*{
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-image: url("https://occ-0-4857-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABX_4O26Eie3ql0Ingt13QPqQ7yrVPA646TsZuHMh6xRFeG2_VpB4JoLrkMXgfGCR-59e6KKP7smBtNyXRLU9rFuj0_spdV_ocZta.jpg?r=5a6&quot");
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.posters{
+    display: flex;
+}
