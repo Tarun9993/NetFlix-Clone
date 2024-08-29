@@ -11,8 +11,28 @@
     background-position: center center;
     max-width: 100%;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 540px;
 }
 .posters{
     display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 1% 0.5%;
+}
+.posters::-webkit-scrollbar {
+    display: none;
+}
+.poster{
+    margin: 0% 0.5%;
+    border-radius: 0.5%;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: 700; */
+    padding: 0.5% 0% 0% 2%;
+    font-size: 1.5rem;
+    /* font-size: medium; */
+}
+.new{
+    text-align: center;
 }
