@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+    color: #ffffff;
+}
+.banner{
+    background:linear-gradient(90deg, #181818 10%, hsla(0, 0%, 9%, .98) 20%, hsla(0, 0%, 9%, .97) 25%, hsla(0, 0%, 9%, .95) 35%, hsla(0, 0%, 9%, .94) 40%, hsla(0, 0%, 9%, .92) 45%, hsla(0, 0%, 9%, .9) 50%, hsla(0, 0%, 9%, .87) 55%, hsla(0, 0%, 9%, .82) 60%, hsla(0, 0%, 9%, .75) 65%, hsla(0, 0%, 9%, .63) 70%, hsla(0, 0%, 9%, .45) 75%, hsla(0, 0%, 9%, .27) 80%, hsla(0, 0%, 9%, .15) 85%, hsla(0, 0%, 9%, .08) 90%, hsla(0, 0%, 9%, .03) 95%, hsla(0, 0%, 9%, 0)),url("https://occ-0-2087-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaJJIdyKMNvEcWhAtI5Xk12MQLY8DLxAkM2k8unVHyRordNL9Jn726cLoEmP_DAn44vwE3_l9dWTpDQTvmzsk6REyj4veXm9bvQ8.jpg?r=e19");
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+/* .banner{
+    background: linear-gradient(90deg, hsla(0, 0%, 9%, .9) 2%, hsla(0, 0%, 10%, .9) 25%, hsla(0, 0%, 9%, .9) 35%, hsla(0, 0%, 9%, .9) 40%, hsla(0, 0%, 9%, .9) 45%, hsla(0, 0%, 9%, .9) 50%, hsla(0, 0%, 9%, .8) 55%, hsla(0, 0%, 9%, .8) 60%, hsla(0, 0%, 9%, .7) 65%, hsla(0, 0%, 9%, .6) 70%, hsla(0, 0%, 9%, .4) 75%, hsla(0, 0%, 9%, .2) 80%, hsla(0, 0%, 9%, .1) 85%, hsla(0, 0%, 9%, .0) 90%, hsla(0, 0%, 9%, .0) 95%, hsla(0, 0%, 9%, 0)),url("https://occ-0-2087-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaJJIdyKMNvEcWhAtI5Xk12MQLY8DLxAkM2k8unVHyRordNL9Jn726cLoEmP_DAn44vwE3_l9dWTpDQTvmzsk6REyj4veXm9bvQ8.jpg?r=e19");
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+} */
+.banner-content .banner-title img{
+    object-fit: contain;
+    max-width: 35%;
+
+}
+.banner-content{
+    padding:10% 5%;
+}
+.banner-title h1{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 3%;
+    padding-bottom: 1%; 
+}
+.banner-title h3{
+    color: #a3a3a3;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 1% 0%;
+}
+.banner-title span{
+    padding: 0px 5px;
+}
+.banner-title .box{
+    /* height: 1px;
+    width: 1px; */
+    /* background-color: #fff; */
+    padding: 1px 5px;
+    border: 1px solid #a3a3a3;
+}
+.banner-title p{
+    padding: 10px 0px;
+    max-width: 40%;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5rem;
+}
+.banner-title .info{
+    color: #fff;
+}
